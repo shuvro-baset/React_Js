@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -15,3 +15,18 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+*/
+
+
+// ---------- custom component ------ 
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+let el = React.createElement('h1', null, "Hello world from react element.");
+ReactDOM.render(el, document.getElementById('root'));
+
+/* jsx format
+let el = <h1>Hello world from babel js.</h1>; 
+ReactDOM.render(el, document.getElementById('root'))
+
+*/
