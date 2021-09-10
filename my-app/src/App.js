@@ -24,3 +24,18 @@ function App() {
 
 export default App;
 */
+
+
+// custom component based react element
+import React, { Component } from 'react';
+
+// class based component
+class App extends Component {
+  render() {
+    // return react element
+    return <h1>Hello World from app component</h1>;
+  }
+}
+
+// exporting app
+export default App;
