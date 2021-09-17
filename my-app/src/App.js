@@ -38,3 +38,11 @@ class App extends Component {
 // exporting app
 export default App;
 */
+
+
+// Export Clock Component from Component folder
+import Clock from './component/Clock';
+function App() {
+  return <div><Clock locale="bd-BD" /></div>
+}
+export default App;
