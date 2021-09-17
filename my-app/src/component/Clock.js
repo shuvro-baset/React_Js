@@ -14,7 +14,7 @@ class Clock extends React.Component {
         clearInterval(this.clockTimer);
     }
     tick() {
-        // making component reactive. updating state.
+        // use setState() method and passing update object then that component will change the state. We should call this method under the componentDidMount() method.
         this.setState({
             date: new Date()
         });
