@@ -1,5 +1,5 @@
 ﻿# React_Js
-    * React is a JavaScript library for building user interfaces.
+   * React is a JavaScript library for building user interfaces.
 # Here are what I consider to be React prerequisites.
    * Basic familiarity with HTML & CSS.
    * Basic knowledge of JavaScript and programming.
@@ -20,29 +20,29 @@
     - then changes only what needs to be changed
 
 # react JSX
-    *JSX stands for “JavaScript XML,” and it is a syntax extension to JavaScript based in ES6, the newest “version” of  JavaScript. JSX allows you to write HTML in React by converting HTML into React components, helping you to more easily create user interfaces for your web applications.
-    * const element = <h1>Hello, world!</h1>;
-    * It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what     the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript.
+   *JSX stands for “JavaScript XML,” and it is a syntax extension to JavaScript based in ES6, the newest “version” of  JavaScript. JSX allows you to write HTML in React by converting HTML into React components, helping you to more easily create user interfaces for your web applications.
+   * const element = <h1>Hello, world!</h1>;
+   * It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what     the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript.
 
 # react createElement 
-    * React.CreateElement(type,props,children)
-    * type - Type of the html element or component(Ex: h1,p,button...etc)
-    * props - The properties object (Ex: {style:{color:'green'}} or className or event handlers etc.)
-    * children - anything you need to pass between the dom elements.
-    -- Example: React.createElement('h1', {style:{color:'green'}}, 'Hello World!')
-    * react element is immutable. We should create a new element every time.
+   * React.CreateElement(type,props,children)
+   * type - Type of the html element or component(Ex: h1,p,button...etc)
+   * props - The properties object (Ex: {style:{color:'green'}} or className or event handlers etc.)
+   * children - anything you need to pass between the dom elements.
+   -- Example: React.createElement('h1', {style:{color:'green'}}, 'Hello World!')
+   * react element is immutable. We should create a new element every time.
 # React Render to Dom 
-    * ReactDom.render(element, DOMNode) - It takes a React element and render it to a DOM node.
-    * Example: ReactDom.render(<App/>, document.getElementById('root'));
-    * app.js(c1,c2.....) --> index.js --> index.html.
+   * ReactDom.render(element, DOMNode) - It takes a React element and render it to a DOM node.
+   * Example: ReactDom.render(<App/>, document.getElementById('root'));
+   * app.js(c1,c2.....) --> index.js --> index.html.
 
 # props 
-    * we should not change props inside React components.
-    * props means properties
+   * we should not change props inside React components.
+   * props means properties
 
 # Fragment 
-    * Fragment is used to group a list of children without adding extra nodes to the DOM.
-    * when we need to return multiple children elements then we will use <React.Fragment>....</React.Fragment>
+   * Fragment is used to group a list of children without adding extra nodes to the DOM.
+   * when we need to return multiple children elements then we will use <React.Fragment>....</React.Fragment>
 
 # Component
     * Component are the building blocks of any React app. 
@@ -94,3 +94,4 @@
     * Must write className instead of class.
 ![](./images/style3.png)
 
+# event handling
