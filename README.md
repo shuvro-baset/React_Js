@@ -82,7 +82,7 @@
     * inline, internal, external
 # inlineCss 
     * add style variable as an object and pass the css property as dynamic way as shown in the picture
-    ![alt text](./images/style1.png)
+    ![alt text](https://github.com/shuvro-baset/React_Js/blob/main/images/style1.png)
 # InternalCss
     * we should use CSS property like as an object
     * must use camel case
