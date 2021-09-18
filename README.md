@@ -82,15 +82,15 @@
     * inline, internal, external
 # inlineCss 
     * add style variable as an object and pass the css property as dynamic way as shown in the picture
-    ![alt text](https://github.com/shuvro-baset/React_Js/blob/main/images/style1.png)
+![](/images/style1.png)
 # InternalCss
     * we should use CSS property like as an object
     * must use camel case
-    ![alt text](./images/style2.png)
+![](./images/style2.png)
 
 # ExternalCss
     * Write css class into app.css file
     * add the class into the component.
     * Must write className instead of class.
-    ![alt text](./images/style3.png)
+![](./images/style3.png)
 
