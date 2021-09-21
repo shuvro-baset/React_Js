@@ -10,6 +10,8 @@
    * npx create-react-app my-app // create a new app and download required files
    * cd my-app // entering app directory
    * npm start // start app server.
+   * npm - Node Package Manager
+   * npx - Node Package Extension
 # how react works
    - react works component based.
    - React creates a VIRTUAL DOM in memory.
