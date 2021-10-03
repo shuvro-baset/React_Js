@@ -2,13 +2,14 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-  BrowserRouter as Router,  Switch,  Route,  Link,  useParams} from "react-router-dom";
+  BrowserRouter as Router,  Switch,  Route} from "react-router-dom";
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Todos from './Components/Todos/Todos';
 import About from './Components/About/About';
 import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
+import SingleTodos from './Components/SingleTodos/SingleTodos';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route  path="/about">
             <About></About>
+          </Route>
+          <Route path="/todos/:id">
+            <SingleTodos></SingleTodos>
           </Route>
           <Route path="*">
             <NotFound></NotFound>
