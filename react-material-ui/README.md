@@ -12,6 +12,6 @@ Note: So all the components we need to use then have to import that.
 # Icons
 * npm install @mui/icons-material
 # for the custom css we should use - makeStyles custom hook.
-# we can also change the default theme from Material Ui. Just import `createMuiTheme, ThemeProvider` from core library. and then rewrite the property from palette object.
+# we can also change the default theme from Material Ui. Just import `createMuiTheme, ThemeProvider` from core library. and then overwrite  the property from palette object.
 # we can add google font instead of default 'roboto' font by MaterialUi. Just import google font style into index.css and 
-    rewrite the property into theme object.
+    overwrite  the property into theme object.
