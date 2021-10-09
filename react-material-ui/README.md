@@ -13,5 +13,8 @@ Note: So all the components we need to use then have to import that.
 * npm install @mui/icons-material
 # for the custom css we should use - makeStyles custom hook.
 # we can also change the default theme from Material Ui. Just import `createMuiTheme, ThemeProvider` from core library. and then overwrite  the property from palette object.
-# we can add google font instead of default 'roboto' font by MaterialUi. Just import google font style into index.css and 
-    overwrite  the property into theme object.
+* we can add google font instead of default 'roboto' font by MaterialUi. Just import google font style into index.css and overwrite  the property into theme object.
+
+* `textField` inside the `form`. 'label', 'variant', 'color' ... property. We can handle input value and error using    useState method. 
+
+* `Radio`- we should use radio button under the `RadioGroup` and then it will selected only one. If I change one another one will deselect automatically.
