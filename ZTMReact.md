@@ -12,3 +12,6 @@ VirtualDom => a blueprint off real dom.
 * react makes a one css file. so how many css er create in a different component or pages that can access any other components or pages. so when we write a css and give a name of the class or id be sure all the names are relevant and unique.
 
 * we can destructure the properties under the map. make a another curly braces and destructure the property and use it where it needed.
+
+`SASS`
+- yarn add sass / npm i sass
