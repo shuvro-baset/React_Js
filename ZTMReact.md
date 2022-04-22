@@ -15,3 +15,6 @@ VirtualDom => a blueprint off real dom.
 
 `SASS`
 - yarn add sass / npm i sass
+
+`Context Data`
+- store data in a different places and pass it where we need. no need to props drilling.
