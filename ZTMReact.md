@@ -18,3 +18,4 @@ VirtualDom => a blueprint off real dom.
 
 `Context Data`
 - store data in a different places and pass it where we need. no need to props drilling.
+- context can be nested. in that case arranges it as parent and child.
