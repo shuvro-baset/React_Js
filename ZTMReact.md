@@ -19,3 +19,7 @@ VirtualDom => a blueprint off real dom.
 `Context Data`
 - store data in a different places and pass it where we need. no need to props drilling.
 - context can be nested. in that case arranges it as parent and child.
+
+`Styled Component`
+- npm install styled-component
+- it's a component that contains styles as a component. the main useful thing to do is to make sure all the styles classes are unique.
