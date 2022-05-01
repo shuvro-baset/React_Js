@@ -32,3 +32,9 @@
 # `Redux-Toolkit`
 - it's a easy way(like a boilerplate)
 - yarn add @reduxJs/toolkit react-redux
+
+# `Redux-Saga`
+- yarn-add redux-saga
+
+* generator function (function* name(param))
+
